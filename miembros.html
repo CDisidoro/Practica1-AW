@@ -2,13 +2,14 @@
 <html lang="es"> <!--Indico que el idioma que vamos a utilizar es el castellano, es un mero formalismo-->
   <head>
     <title>Miembros</title> <!--Titulo de la página-->
+    <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8"> <!--Codificación establecida-->
     <base target="_top">
   </head>
   <body> <!--Inicio del cuerpo-->
     <h1> <!--Titulo principal de la página-->
       <br>
-        <a title="Logo" href="index.html"><img src="img/Logo.jpg" width="300" height="300"></a>
+        <a title="Logo" href="index.html"><img src="img/Logo.jpg" class="logo"></a>
         <!--Falta poner el path de la imagen-->
       <br> <!--A continuación establecemos los links a las distintas páginas de la p1-->
         <a href="index.html">Index</a>
@@ -19,37 +20,34 @@
         <a href="contacto.html">Contacto</a>
       </h1>
 
-    <ol type="1"><font face="verdana" > <!--Establecemos los nombres de los miembros del equipo en una lista-->
+    <ol type="1"> <!--Establecemos los nombres de los miembros del equipo en una lista-->
       <li><a href="#Luis Manuel">Luis Manuel</a></li>
       <li><a href="#David">David</a></li>
       <li><a href="#Arturo">Arturo</a></li>
       <li><a href="#Camilo">Camilo</a></li>
       <li><a href="#Jesus">Jesús</a></li>
-      <li><a href="#Antonio">Antonio</a></li>
-    </font>     
+      <li><a href="#Antonio">Antonio</a></li>  
     </ol>
     
-    <p>&nbsp;</p>  
-  <p>
-    <h3 id="Luis Manuel">Luis Manuel</h3> 
-    <img src="img/Luis.jpg" width="150" height="150" ALIGN=left alt="Luis Manuel"/>
-    
-    <pre><font face="verdana">
-      Mi nombre es Luis Manuel, estudio en la facultad de informática de la Universidad Complutense de Madrid.
-      Me gusta practicar deportes, viajar y estar con los amigos.
-      <br>
-      Me podeís contactar a través de mail: <em>luismanp@ucm.es</em></font>
-    </pre>
-  </p>
+    <div>
+      <h3 id="Luis Manuel">Luis Manuel</h3> 
+      <img src="img/Luis.jpg" class="foto" alt="Luis Manuel"/>
+      <pre>
+        <p>Mi nombre es Luis Manuel, estudio en la facultad de informática de la Universidad Complutense de Madrid.
+        Me gusta practicar deportes, viajar y estar con los amigos.</p>
+        
+        <p>Me podeís contactar a través de mail: <em>luismanp@ucm.es</em></p>
+      </pre>
+    </div>
 
   <p>
     <p>&nbsp;</p>  
     <h3 id="David">David Cruza Sesmero</h3>
-    <img src="img/David.jpg" width="150" height="200" ALIGN=left alt="David Cruza Sesmero"/>
-    <pre><font face="verdana">
+    <img src="img/David.jpg" class="foto" alt="David Cruza Sesmero"/>
+    <pre>
       Hola a todos, mi nombre es David Cruza, soy un estudiante de Ingeniería Informática,
       dentro de ella los terrenos que más me apasionan son la criptografía y la computación cuántica.<br>
-      Mi correo es <em>davcru01@ucm.es</em> </font>
+      Mi correo es <em>davcru01@ucm.es</em>
     </pre>
     
   </p>
@@ -59,13 +57,13 @@
   <p>
     <p>&nbsp;</p>  
     <h3 id="Arturo">Arturo</h3>
-    <img src="img/Arturo.jpg" width="150" height="200" ALIGN=left alt="Arturo"/>
+    <img src="img/Arturo.jpg" class="foto" alt="Arturo"/>
    
-    <pre><font face="verdana"> 
+    <pre> 
       Hola soy Arturo López, mis amigos me llaman amigo de amigos, me gustan las motos,
       el flamenquito y los oros, me pasé el mario kart con una mano
       y puedo decirte el abecedario al reves.<br> 
- 	    Mi correo es: <em>arturl01@ucm.es</em></font>
+ 	    Mi correo es: <em>arturl01@ucm.es</em>
     </pre>
   
 
@@ -79,15 +77,15 @@
   <p>
     <p>&nbsp;</p>   
     <h3 id="Camilo">Camilo Andres D'isidoro</h3>
-    <img src="img/Camilo.jpg" width="200" height="200" ALIGN=left alt="Camilo"/>
+    <img src="img/Camilo.jpg" class="foto" alt="Camilo"/>
     <p>&nbsp;</p>
    
-    <pre><font face="verdana">
+    <pre>
      Mi nombre es Camilo Andres D'isidoro, soy estudiante de 3º de Ingeniería Informática,
      soy un apasionado por los videojuegos y programar diferentes cosas.
      <br>
       Mi correo es: <em>cdisidor@ucm.es</em>
-      </font> 
+     
   </pre>
     
   </p>
@@ -97,12 +95,12 @@
   <p>
     
     <h3 id="Jesús">Jesús</h3>
-    <img src="img/Jesus.jpg" width="150" height="150" ALIGN=left alt="Jesús"/>
-    <pre><font face="verdana">
+    <img src="img/Jesus.jpg" class="foto" alt="Jesús"/>
+    <pre>
       Me llamo Jesús Abajo Magro , estudio ingeniería informática y me gustan el deporte
       y las series<br>
       Mi correo es: <em>jabajo01@ucm.es</em>
-      </font>  
+       
   </pre>
     
   </p>
@@ -112,12 +110,12 @@
   <p>
     <p>&nbsp;</p>  
     <h3 id="Antonio">Antonio</h3>
-    <img src="img/Antonio.jpg" width="150" height="200" ALIGN=left alt="Antonio"/>
+    <img src="img/Antonio.jpg" class="foto" alt="Antonio"/>
     
-    <pre><font face="verdana">
+    <pre>
       Me llamo Antonio Bonillo Saiz, estudio ingeniería de computadores
       y entre mis aficiones destacan los videojuegos y el deporte.
-	    Mi correo electrónico es <em>antoboni@ucm.es</em></font> 
+	    Mi correo electrónico es <em>antoboni@ucm.es</em> 
   </pre>
   </p>
   
