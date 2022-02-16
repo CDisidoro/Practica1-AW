@@ -1,0 +1,18 @@
+.logo{
+    width: 300px;
+    height: 300px;
+}
+.foto{
+    width: 150px;
+    height: 150px;
+    align-self: left;
+}
+pre{
+    font-family: verdana;
+}
+ol{
+    font-family: verdana;
+}
+.miembrosDesc pre{
+    align-items: right;
+}
