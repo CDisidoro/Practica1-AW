@@ -13,3 +13,6 @@ pre{
 ol{
     font-family: verdana;
 }
+.miembrosDesc pre{
+    align-items: right;
+}
