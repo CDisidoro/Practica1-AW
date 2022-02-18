@@ -7,6 +7,11 @@
     height: 150px;
     align-self: left;
 }
+.boceto{
+    width: 600px;
+    height: 450px;
+    align-self: left;
+}
 pre{
     font-family: verdana;
 }
