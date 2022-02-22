@@ -18,6 +18,9 @@ ol{
     height: 150px;
     float: left;
 }
+.miembrosDesc{
+    margin-top: 10%;
+}
 .miembrosDesc p{
     margin-left: 11%;
     vertical-align: middle;
