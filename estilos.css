@@ -22,3 +22,8 @@ ol{
     margin-left: 11%;
     vertical-align: middle;
 }
+
+.parrafoNegrita{
+    font-size: 18px;
+    font-weight: bold;
+}
