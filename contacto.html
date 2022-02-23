@@ -10,27 +10,39 @@
         <a title="Logo" href="index.html"><img src="img/Logo.jpg" width="300" height="300"></a>
         <h1>Página de contacto</h1> <!--Introducción para el usuario-->
         <p>¿Tienes alguna duda? ¿Necesitas más información? ¿Quieres aportar alguna sugerencia? Estás en el sitio indicado, rellena este formulario y te atenderemos, muchas gracias.</p>
-        <form>
+        
+        <form action="mailto:GamersDeen@gmail.com" method="post" enctype="text/plain">
             <fieldset> <!--Formulario con todos los requisitos y campos-->
                 <legend>Información personal:</legend>
                 <div> 
-                    Nombre: <input type="text" size="50"> 
+                    <label for = "nombre"> Nombre: </label>
+                    <input id = "nombre" type = "text" name = "nombre" value = "" />
                 </div>
 
                 <div> 
-                    E-mail de contacto: <input type="text" size="50"> 
+                    <label for = "email">E-mail de contacto:</label>
+                    <input id = "email" type = "text" name = "email" value = "" size="50"> 
                 </div>
 
-                <div> Motivo de la consulta: </div>
-                <input type="radio" name="motivo" value="evaluacion" /> Evaluación
-                <input type="radio" name="motivo" value="sugerencia" /> Sugerencia
-                <input type="radio" name="motivo" value="critica" /> Crítica 
-                <div> Mensaje: </div>
-
-                <div> <textarea name="nombre" rows="10" cols="100"> </textarea> </div>             
                 <div> 
-                    <input name="Acepto las condiciones y términos de servicio" type="checkbox" value="acepto" unchecked/> Marque esta casilla para verificar que ha leído nuestros términos 
-                    y condiciones del servicio 
+                    <label for = "motivo"> Motivo de la consulta: </label>                  
+                </div>
+
+                <label> <input type="radio" name="motivo" value="evaluacion" /> Evaluación </label>
+                <label> <input type="radio" name="motivo" value="sugerencia" /> Sugerencia </label>
+                <label> <input type="radio" name="motivo" value="critica" /> Crítica </label> 
+
+                <div> 
+                    <label for = "mensaje"> Mensaje:  </label>                   
+                </div>
+
+                <div> 
+                    <textarea name = "mensaje" rows="10" cols="100"> </textarea> 
+                </div>    
+
+                <div> 
+                    <label> <input name="Acepto las condiciones y términos de servicio" type="checkbox" value="acepto" unchecked/> Marque esta casilla para verificar que ha leído nuestros términos 
+                        y condiciones del servicio  </label>
                 </div>
                  
                 <button type="submit">Enviar</button>
